@@ -13,6 +13,10 @@
 		A0A7FF1B2D15176900DCD8FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0A7FF0F2D15176900DCD8FC /* Assets.xcassets */; };
 		A0A7FF1D2D15176900DCD8FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A7FF122D15176900DCD8FC /* LaunchScreen.storyboard */; };
 		A0A7FF1E2D15176900DCD8FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A7FF142D15176900DCD8FC /* Main.storyboard */; };
+		A0A7FF202D1526E300DCD8FC /* SliderCounterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A7FF1F2D1526E200DCD8FC /* SliderCounterManager.swift */; };
+		A0A7FF222D15294400DCD8FC /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A7FF212D15294400DCD8FC /* ButtonViewController.swift */; };
+		A0A7FF242D154CBC00DCD8FC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A7FF232D154CBB00DCD8FC /* Extension.swift */; };
+		A0A7FF262D15516E00DCD8FC /* StepControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A7FF252D15516D00DCD8FC /* StepControlView.swift */; };
 		BA6D96FD5003A2D5BF4884E3 /* Pods_SliderCounterManagerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EFBFA6B89D22DA55C48D4C /* Pods_SliderCounterManagerDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +29,10 @@
 		A0A7FF132D15176900DCD8FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0A7FF152D15176900DCD8FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A0A7FF162D15176900DCD8FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0A7FF1F2D1526E200DCD8FC /* SliderCounterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCounterManager.swift; sourceTree = "<group>"; };
+		A0A7FF212D15294400DCD8FC /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		A0A7FF232D154CBB00DCD8FC /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		A0A7FF252D15516D00DCD8FC /* StepControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepControlView.swift; sourceTree = "<group>"; };
 		CC4F7F6B14143B85DB702AB9 /* Pods-SliderCounterManagerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SliderCounterManagerDemo.release.xcconfig"; path = "Target Support Files/Pods-SliderCounterManagerDemo/Pods-SliderCounterManagerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F67F37CB9FB702A23BDCD4DD /* Pods-SliderCounterManagerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SliderCounterManagerDemo.debug.xcconfig"; path = "Target Support Files/Pods-SliderCounterManagerDemo/Pods-SliderCounterManagerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F8EFBFA6B89D22DA55C48D4C /* Pods_SliderCounterManagerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SliderCounterManagerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,13 +88,17 @@
 		A0A7FF172D15176900DCD8FC /* SliderCounterManagerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A0A7FF232D154CBB00DCD8FC /* Extension.swift */,
+				A0A7FF212D15294400DCD8FC /* ButtonViewController.swift */,
+				A0A7FF162D15176900DCD8FC /* ViewController.swift */,
+				A0A7FF1F2D1526E200DCD8FC /* SliderCounterManager.swift */,
+				A0A7FF252D15516D00DCD8FC /* StepControlView.swift */,
 				A0A7FF0E2D15176900DCD8FC /* AppDelegate.swift */,
 				A0A7FF0F2D15176900DCD8FC /* Assets.xcassets */,
 				A0A7FF102D15176900DCD8FC /* Info.plist */,
 				A0A7FF122D15176900DCD8FC /* LaunchScreen.storyboard */,
 				A0A7FF142D15176900DCD8FC /* Main.storyboard */,
 				A0A7FF152D15176900DCD8FC /* SceneDelegate.swift */,
-				A0A7FF162D15176900DCD8FC /* ViewController.swift */,
 			);
 			path = SliderCounterManagerDemo;
 			sourceTree = "<group>";
@@ -206,8 +218,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0A7FF242D154CBC00DCD8FC /* Extension.swift in Sources */,
 				A0A7FF182D15176900DCD8FC /* AppDelegate.swift in Sources */,
+				A0A7FF262D15516E00DCD8FC /* StepControlView.swift in Sources */,
 				A0A7FF192D15176900DCD8FC /* SceneDelegate.swift in Sources */,
+				A0A7FF202D1526E300DCD8FC /* SliderCounterManager.swift in Sources */,
+				A0A7FF222D15294400DCD8FC /* ButtonViewController.swift in Sources */,
 				A0A7FF1A2D15176900DCD8FC /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
