@@ -1,4 +1,4 @@
-# StepControlView
+# SliderCounterManager
 
 一个高度可定制的轻量级步进控制视图，支持滑块值的实时调整以及播放/暂停动画功能。
 
