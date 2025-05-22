@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A00CBB6B2D1875E500C9F661 /* HorizontalPageFlowlayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00CBB6A2D1875E500C9F661 /* HorizontalPageFlowlayout.swift */; };
 		A0A7FF182D15176900DCD8FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A7FF0E2D15176900DCD8FC /* AppDelegate.swift */; };
 		A0A7FF192D15176900DCD8FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A7FF152D15176900DCD8FC /* SceneDelegate.swift */; };
 		A0A7FF1A2D15176900DCD8FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A7FF162D15176900DCD8FC /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A00CBB6A2D1875E500C9F661 /* HorizontalPageFlowlayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalPageFlowlayout.swift; sourceTree = "<group>"; };
 		A0A7FEF62D15175600DCD8FC /* SliderCounterManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderCounterManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0A7FF0E2D15176900DCD8FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0A7FF0F2D15176900DCD8FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				A0A7FF232D154CBB00DCD8FC /* Extension.swift */,
+				A00CBB6A2D1875E500C9F661 /* HorizontalPageFlowlayout.swift */,
 				A0A7FF212D15294400DCD8FC /* ButtonViewController.swift */,
 				A0A7FF162D15176900DCD8FC /* ViewController.swift */,
 				A0A7FF1F2D1526E200DCD8FC /* SliderCounterManager.swift */,
@@ -224,6 +227,7 @@
 				A0A7FF192D15176900DCD8FC /* SceneDelegate.swift in Sources */,
 				A0A7FF202D1526E300DCD8FC /* SliderCounterManager.swift in Sources */,
 				A0A7FF222D15294400DCD8FC /* ButtonViewController.swift in Sources */,
+				A00CBB6B2D1875E500C9F661 /* HorizontalPageFlowlayout.swift in Sources */,
 				A0A7FF1A2D15176900DCD8FC /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
